@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+
+}
+nav{
+
+    background-color: transparent;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+}
+.logo img{
+    width: 220px;
+}
+.nav-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+}
+.nav-links a:hover{
+    text-decoration: underline;
+}
+.other-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+.other-links{
+    display: flex;
+    gap: 30px;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+}
+.menu{
+    
+
+}
+.project{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content:flex-start;
+    
+
+    
+}
+
+.one{
+    background-image:url(Thuraya_4_pad39a_DSC_5704_desktop_1553665741.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+    
+
+.two{
+    background-image:url(Launch_Page_Starlink1_vertical_18_DESKTOP_098ae3251b.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+.three{
+    background-image:url(Starlink_G6_71_STL_0043_2_DESKTOP_e6ed856663.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+.four{
+    background-image:url(th.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+.five{
+    background-image:url(Eva_Suit_Desktop_alternate_1cf9bae18e.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+.six{
+    background-image:url(make_life_multiplanetary_desktop_3fa7cff73c.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    font-size: 20px;
+}
+.title{
+    font-size: 48px;
+    width: 468px;
+    text-transform: uppercase;
+}
+.btn{
+    border: 2px solid white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    text-align: center;
+    height: 30px;
+    transition: 0.5s;
+    margin-top: 20px;
+     
+}
+.btn:hover{
+    border: 2px solid white;
+    background-color: white;
+    color:black;
+}
+.msg{
+    position: relative;
+    top: 410px;
+    left:100px;
+    text-shadow: 0 0 2px #555;
+    height: 25px;
+}
+.FOOT{
+    background-color: black;
+    display: flex;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
